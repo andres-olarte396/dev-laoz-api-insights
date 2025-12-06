@@ -1,0 +1,28 @@
+{
+    "name": "dev-laoz-api-insights",
+    "version": "1.0.0",
+    "description": "API for system observability, logging, and real-time monitoring",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "observability",
+        "logs",
+        "monitoring"
+    ],
+    "author": "WebTools Team",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "helmet": "^7.0.0",
+        "mongoose": "^7.5.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
