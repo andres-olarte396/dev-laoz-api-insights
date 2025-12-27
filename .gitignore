@@ -1,0 +1,25 @@
+# Node
+node_modules/
+.env
+*.sqlite
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.DS_Store
+/dist
+/build
+coverage/
+
+# Logs
+logs
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Others
+.idea/
+.vscode/
+*.swp
+*.swo
